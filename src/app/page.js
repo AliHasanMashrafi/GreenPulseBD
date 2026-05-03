@@ -228,18 +228,18 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="px-6 md:px-24 py-40">
-        <div className="max-w-6xl mx-auto rounded-[4rem] bg-gradient-to-br from-[#061708] to-[#0A2E10] p-16 md:p-24 text-center space-y-10 relative overflow-hidden border border-white/5">
+      <section className="px-6 md:px-24 py-24">
+        <div className="max-w-6xl mx-auto rounded-[4rem] bg-gradient-to-br from-[#061708] to-[#0A2E10] md:p-24 text-center space-y-10 relative overflow-hidden border border-white/5">
           <div className="absolute top-0 left-0 w-full h-full bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-20"></div>
-          <div className="relative z-10 space-y-8">
-            <h2 className="text-3xl md:text-6xl font-black font-bengali text-white leading-tight">
+          <div className="relative z-10 space-y-8 py-10 md:py-0">
+            <h2 className="text-3xl md:text-6xl font-black font-bengali text-white leading-tight px-10 md:px-0">
               আপনার এলাকাকে সবুজে সাজিয়ে <br className="hidden md:block"/> আরও বাসযোগ্য করে তুলুন
             </h2>
-            <p className="text-lg md:text-xl text-white/70 font-bengali max-w-3xl mx-auto font-medium">
+            <p className="text-xl text-white/70 font-bengali max-w-3xl mx-auto font-medium px-10 md:px-0">
               আমাদের এআই আপনাকে এমন একটি কাস্টমাইজড প্ল্যান দেবে, যা একইসাথে পরিবেশবান্ধব এবং সাশ্রয়ী।
             </p>
             <div className="flex justify-center pt-8">
-              <Link href="/green-planner" className="md:px-12 md:py-6 px-10 py-4 bg-primary text-on-primary rounded-[2.5rem] font-black font-bengali text-lg md:text-xl hover:scale-105 hover:shadow-[0_20px_60px_rgba(var(--primary-rgb),0.4)] transition-all flex items-center gap-4 cursor-pointer">
+              <Link href="/green-planner" className="md:px-12 md:py-6 px-8 py-4 bg-primary text-on-primary rounded-[2.5rem] font-black font-bengali text-lg md:text-xl hover:scale-105 hover:shadow-[0_20px_60px_rgba(var(--primary-rgb),0.4)] transition-all flex items-center gap-4 cursor-pointer">
                 আপনার প্ল্যান তৈরি করুন
                 <span className="material-symbols-outlined text-3xl">magic_button</span>
               </Link>

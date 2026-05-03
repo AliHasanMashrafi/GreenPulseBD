@@ -12,7 +12,7 @@ const DhakaHeatMap = dynamic(() => import("@/components/DhakaHeatMap"), { ssr: f
 
 export default function Heatmap() {
   const dispatch = useDispatch<AppDispatch>();
-  const { mode, selectedThana, viewMode,  summaryData, thanas } = useSelector((state: RootState) => state.map);
+  const { mode, selectedThana, viewMode, summaryData, thanas } = useSelector((state: RootState) => state.map);
 
   // Set mode to heat and force a data refresh when landing on this page
   useEffect(() => {
@@ -49,35 +49,13 @@ export default function Heatmap() {
     <main className="pt-[64px] min-h-screen flex flex-col md:flex-row overflow-hidden bg-background">
       {/* Left: Interactive Map */}
       <section className="w-full md:w-[50%] flex flex-col h-[60vh] md:h-[calc(100vh-64px)] p-4 md:p-6 bg-surface-container-lowest">
-        
-        {/* Data Source Info */}
-        <div className="mb-4 flex items-start gap-3 bg-primary/5 p-3 rounded-xl border border-primary/10">
-          <span className="material-symbols-outlined text-primary text-xl">info</span>
-          <div>
-            <h4 className="text-[10px] font-bold uppercase tracking-wider text-primary font-label mb-0.5">Data Source & Methodology</h4>
-            <p className="text-xs text-on-surface-variant font-bengali leading-relaxed">
-              এই তথ্যগুলো সরাসরি নাসা (NASA) ল্যান্ডস্যাট ৮ এবং ৯ স্যাটেলাইট থেকে সংগৃহীত। গুগল আর্থ ইঞ্জিন (Google Earth Engine) ব্যবহার করে ঢাকার ভূমির তাপমাত্রা (LST) এবং সবুজ বনায়ন বিশ্লেষণ করে এই ডেটা সেটটি তৈরি করা হয়েছে।
-            </p>
-            <div className="mt-2 pt-2 border-t border-primary/10">
-              <p className="text-[11px] text-primary/60 font-medium italic leading-relaxed">
-                * বর্তমানে প্রদর্শিত ডেটা মার্চ–এপ্রিল ২০২৬ সময়কালের Landsat 8/9 স্যাটেলাইট থেকে প্রাপ্ত গড় তথ্য।
-              </p>
-            </div>
-            {summaryData?.last_updated && (
-              <p className="text-[10px] text-primary/60 font-bold mt-1 uppercase tracking-tighter">সিস্টেম সিঙ্ক: {summaryData.last_updated}</p>
-            )}
-            {summaryData?.observation_date && (
-              <p className="text-[10px] text-primary/60 font-bold mt-0.5 uppercase tracking-tighter italic opacity-80">স্যাটেলাইট রেকর্ড: {summaryData.observation_date}</p>
-            )}
-          </div>
-        </div>
 
         <div className="flex-grow relative rounded-2xl overflow-hidden border border-outline-variant/20 shadow-2xl bg-surface-container">
           {/* Mode Toggle - floating over map */}
           <div className="absolute top-4 left-4 z-[1000] flex gap-2">
 
             {viewMode === 'area' && (
-              <button 
+              <button
                 onClick={() => dispatch(setViewMode('whole'))}
                 className="px-4 py-2 rounded-xl font-bold font-bengali bg-secondary text-on-secondary border border-secondary shadow-lg text-sm"
               >
@@ -91,14 +69,37 @@ export default function Heatmap() {
 
         {/* Legend */}
         <div className="mt-4 flex items-center justify-between px-2">
-          <div className="flex items-center gap-4">
+          <div className="block lg:hidden">
+            <div className="flex item-center gap-x-5">
+              <span className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest">Temperature (°C)</span>
+              <div className="flex gap-4 text-[10px] font-medium text-on-surface-variant">
+                <span>25° → 45°+</span>
+              </div>
+            </div>
+            <div className="h-2 w-48 rounded-full heat-gradient my-2" />
+            <div className="flex gap-x-5">
+              <div className="flex items-center gap-1.5">
+                <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
+                <span className="text-[10px] font-medium text-on-surface-variant font-bengali">সহনীয়</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <div className="w-2 h-2 rounded-full bg-orange-500"></div>
+                <span className="text-[10px] font-medium text-on-surface-variant font-bengali">উচ্চ</span>
+              </div>
+              <div className="flex items-center gap-1.5">
+                <div className="w-2 h-2 rounded-full bg-red-600"></div>
+                <span className="text-[10px] font-medium text-on-surface-variant font-bengali">বিপজ্জনক</span>
+              </div>
+            </div>
+          </div>
+          <div className="hidden lg:flex items-center gap-4">
             <span className="text-[10px] font-bold text-on-surface-variant uppercase tracking-widest">Temperature (°C)</span>
             <div className="h-2 w-48 rounded-full heat-gradient" />
             <div className="flex gap-4 text-[10px] font-medium text-on-surface-variant">
               <span>25° → 45°+</span>
             </div>
           </div>
-          <div className="flex gap-4">
+          <div className="hidden lg:flex gap-4">
             <div className="flex items-center gap-1.5">
               <div className="w-2 h-2 rounded-full bg-yellow-500"></div>
               <span className="text-[10px] font-medium text-on-surface-variant font-bengali">সহনীয়</span>
@@ -116,20 +117,20 @@ export default function Heatmap() {
       </section>
 
       {/* Right: Info Sidebar */}
-      <motion.aside 
+      <motion.aside
         initial={{ opacity: 0, x: 50 }}
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         className="w-full md:w-[50%] h-[calc(100vh-64px)] overflow-y-auto p-4 md:p-6 bg-surface-container-lowest border-l border-outline-variant/10"
       >
-        <motion.div 
-          key={currentData.name_en} 
+        <motion.div
+          key={currentData.name_en}
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
           className="max-w-2xl mx-auto space-y-6"
         >
-          
+
           {/* Area Header */}
           <header className="flex items-start justify-between">
             <div className="space-y-1">
@@ -147,7 +148,7 @@ export default function Heatmap() {
             <div className="text-right">
               {viewMode === 'area' && selectedThana && (
                 <div className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-[10px] font-bold uppercase tracking-wider mb-2">
-                  Rank #{(function() {
+                  Rank #{(function () {
                     const allThanasList = Object.values(thanas || {});
                     const sorted = [...allThanasList].sort((a: any, b: any) => b.nasa_data.lst_celsius - a.nasa_data.lst_celsius);
                     return sorted.findIndex((t: any) => t.name_en === selectedThana.name_en) + 1;
@@ -163,7 +164,7 @@ export default function Heatmap() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 pt-4">
             {/* Primary Metric: Temperature */}
             <div className="glass-panel rounded-3xl p-6 border border-outline-variant/10 flex flex-col items-center justify-center text-center space-y-4 group transition-all hover:border-primary/30">
-              <h3 className="text-xs font-bold text-on-surface-variant uppercase tracking-widest font-label">{mode === 'heat' ? 'তাপমাত্রা বিশ্লেষণ' : 'সবুজায়ন বিশ্লেষণ'}</h3>
+              <h3 className="text-xs font-bold text-on-surface-variant font-label">{mode === 'heat' ? 'তাপমাত্রা বিশ্লেষণ' : 'সবুজায়ন বিশ্লেষণ'}</h3>
               <div className="relative w-40 h-40">
                 <svg className="w-full h-full transform -rotate-90">
                   <circle
@@ -173,8 +174,8 @@ export default function Heatmap() {
                   />
                   <circle
                     cx="80" cy="80" r="70"
-                    fill="transparent" 
-                    stroke={getDynamicColor(currentData.nasa_data.lst_celsius)} 
+                    fill="transparent"
+                    stroke={getDynamicColor(currentData.nasa_data.lst_celsius)}
                     strokeWidth="12"
                     strokeDasharray="439.8"
                     strokeDashoffset={mode === 'heat' ? heatRingOffset : greenRingOffset}
@@ -191,8 +192,8 @@ export default function Heatmap() {
                   </span>
                 </div>
               </div>
-              <div 
-                style={{ 
+              <div
+                style={{
                   backgroundColor: `${getDynamicColor(currentData.nasa_data.lst_celsius)}1A`,
                   color: getDynamicColor(currentData.nasa_data.lst_celsius)
                 }}
@@ -213,7 +214,7 @@ export default function Heatmap() {
                   <div className="flex flex-col">
                     <div className="text-[14px] font-bold text-primary uppercase tracking-wider font-label mb-0.5">গাছপালার পরিমাণ</div>
                     <div className="text-base font-black text-on-surface font-bengali flex items-baseline gap-2">
-                      {Number(currentData.green_analysis.percentage).toFixed(1)}% 
+                      {Number(currentData.green_analysis.percentage).toFixed(1)}%
                       {currentData.green_analysis.percentage < 25 ? (
                         <span className="text-[10px] font-bold text-error">({(25 - currentData.green_analysis.percentage).toFixed(1)}% কম)</span>
                       ) : (
@@ -245,7 +246,7 @@ export default function Heatmap() {
 
           {/* Detailed Analysis Section */}
           <section className="pt-6 space-y-4">
-            <h3 className="text-sm font-bold text-on-surface-variant uppercase tracking-[0.2em] font-label border-b border-outline-variant/10 pb-2">তাপমাত্রার পরিবর্তন (৫ বছর)</h3>
+            <h3 className="text-sm font-bold text-on-surface-variant uppercase  font-label border-b border-outline-variant/10 pb-2">তাপমাত্রার পরিবর্তন (৫ বছর)</h3>
             <div key={currentData.name_en} className="h-56 w-full bg-surface-container/50 rounded-3xl p-6 flex items-end gap-3 border border-outline-variant/10 shadow-inner">
               {(currentData.trend?.lst_values || [32.1, 33.5, 32.8, 34.2, 35.1]).map((val, i) => {
                 const heightPercent = Math.min((val / 50) * 100, 100);
@@ -254,9 +255,9 @@ export default function Heatmap() {
                 return (
                   <div key={i} className="flex-1 flex flex-col items-center gap-3 group relative h-full justify-end pt-4">
                     {/* The Bar - Solid Color */}
-                    <div 
+                    <div
                       className="w-full rounded-t-xl transition-all duration-700 ease-out relative origin-bottom shadow-lg group-hover:brightness-110"
-                      style={{ 
+                      style={{
                         height: `${heightPercent}%`,
                         backgroundColor: barColor,
                         boxShadow: `0 4px 15px ${barColor}33`
@@ -266,13 +267,8 @@ export default function Heatmap() {
                       <div className="absolute -top-6 left-1/2 -translate-x-1/2 text-[10px] font-black text-on-surface-variant whitespace-nowrap">
                         {val.toFixed(1)}°C
                       </div>
-                      
-                      {/* Tooltip on Hover */}
-                      <div className="absolute -top-10 left-1/2 -translate-x-1/2 px-2 py-1 bg-on-surface text-surface text-[10px] font-black rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:-translate-y-1 shadow-xl z-20 whitespace-nowrap border border-white/10">
-                        {val.toFixed(1)}°C
-                      </div>
                     </div>
-                    
+
                     {/* Year Label */}
                     <span className="text-[10px] font-black text-on-surface-variant font-label opacity-40 group-hover:opacity-100 transition-opacity">
                       {currentData.trend?.years?.[i] || (2021 + i)}
@@ -283,15 +279,60 @@ export default function Heatmap() {
             </div>
           </section>
 
-          {/* Action CTA */}
-          <div className="p-6 rounded-[2rem] bg-gradient-to-br from-primary to-primary-container text-on-primary flex items-center justify-between shadow-xl shadow-primary/20 group">
-            <div className="space-y-1">
-              <h4 className="text-lg font-black font-bengali leading-none">আপনার এলাকাকে সবুজ করুন</h4>
-              <p className="text-xs opacity-80 font-medium">AI ব্যবহার করে পার্সোনালাইজড সবুজায়ন পরিকল্পনা নিন</p>
+          {/* Action CTA - Enhanced Premium Design */}
+          <div className="relative mt-4 group">
+            <div className="absolute inset-0 bg-primary/20 blur-2xl rounded-[2.5rem] opacity-0 group-hover:opacity-100 transition-opacity"></div>
+            <div className="relative p-8 rounded-[2.5rem] bg-surface-container-high border border-primary/20 overflow-hidden group">
+              {/* Background Decoration */}
+              <div className="absolute -right-10 -top-10 w-40 h-40 bg-primary/10 rounded-full blur-3xl group-hover:bg-primary/20 transition-colors"></div>
+              
+              <div className="relative z-10 flex flex-col gap-6">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/20 text-primary">
+                    <span className="material-symbols-outlined text-sm">magic_button</span>
+                    <span className="text-[10px] font-black uppercase tracking-widest">Smart AI</span>
+                  </div>
+                  <span className="material-symbols-outlined text-primary/30 group-hover:text-primary transition-colors">auto_awesome</span>
+                </div>
+                
+                <div className="space-y-2">
+                  <h4 className="text-2xl font-black font-bengali text-on-surface tracking-tight leading-tight">আপনার এলাকাকে <br/> সবুজে সাজান</h4>
+                  <p className="text-xs text-on-surface-variant font-bengali opacity-70 leading-relaxed">
+                    আমাদের জেনারেটিভ এআই ব্যবহার করে আপনার বাসার জন্য একটি পার্সোনালাইজড সবুজায়ন প্ল্যান তৈরি করুন।
+                  </p>
+                </div>
+
+                <Link href="/green-planner" className="flex items-center justify-between p-4 rounded-2xl bg-primary text-on-primary font-black font-bengali hover:shadow-[0_10px_30px_rgba(var(--primary-rgb),0.3)] transition-all group/btn">
+                  পরিকল্পনা শুরু করুন
+                  <div className="w-8 h-8 rounded-xl bg-on-primary/20 flex items-center justify-center group-hover/btn:translate-x-1 transition-transform">
+                    <span className="material-symbols-outlined text-lg">arrow_forward</span>
+                  </div>
+                </Link>
+              </div>
             </div>
-            <Link href="/green-planner" className="w-12 h-12 rounded-2xl bg-on-primary text-primary flex items-center justify-center transition-transform group-hover:scale-110">
-              <span className="material-symbols-outlined">arrow_forward</span>
-            </Link>
+          </div>
+          {/* Data Source & Methodology */}
+          <div className="mt-8 pt-8 border-t border-outline-variant/10 space-y-4">
+            <div className="flex items-start gap-3 bg-primary/5 p-4 rounded-2xl border border-primary/10">
+              <span className="material-symbols-outlined text-primary text-xl">info</span>
+              <div>
+                <h4 className="text-[10px] font-bold uppercase tracking-wider text-primary font-label mb-1">Data Source & Methodology</h4>
+                <p className="text-xs text-on-surface-variant font-bengali leading-relaxed opacity-80">
+                  এই তথ্যগুলো সরাসরি নাসা (NASA) ল্যান্ডস্যাট ৮ এবং ৯ স্যাটেলাইট থেকে সংগৃহীত। গুগল আর্থ ইঞ্জিন (Google Earth Engine) ব্যবহার করে ঢাকার ভূমির তাপমাত্রা (LST) এবং সবুজ বনায়ন বিশ্লেষণ করে এই ডেটা সেটটি তৈরি করা হয়েছে।
+                </p>
+                <p className="text-[10px] text-primary/60 font-medium italic mt-2 leading-relaxed">
+                  * বর্তমানে প্রদর্শিত ডেটা মার্চ–এপ্রিল ২০২৬ সময়কালের Landsat 8/9 স্যাটেলাইট থেকে প্রাপ্ত গড় তথ্য।
+                </p>
+                <div className="mt-3 pt-3 border-t border-primary/5 flex flex-col gap-1">
+                  {summaryData?.last_updated && (
+                    <p className="text-[9px] text-primary/40 font-bold uppercase tracking-tighter">সিস্টেম সিঙ্ক: {summaryData.last_updated}</p>
+                  )}
+                  {summaryData?.observation_date && (
+                    <p className="text-[9px] text-primary/40 font-bold uppercase tracking-tighter">স্যাটেলাইট রেকর্ড: {summaryData.observation_date}</p>
+                  )}
+                </div>
+              </div>
+            </div>
           </div>
         </motion.div>
       </motion.aside>

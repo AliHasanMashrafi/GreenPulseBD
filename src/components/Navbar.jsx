@@ -103,7 +103,7 @@ export default function Navbar() {
             onClick={() => setMobileMenuOpen(false)}
             className="mt-4 w-full py-5 bg-primary text-on-primary rounded-3xl font-black font-bengali text-center text-lg shadow-xl"
           >
-            এআই প্ল্যান শুরু করুন
+            সবুজায়ন শুরু করুন
           </Link>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="w-full pt-32 pb-16 px-6 md:px-24 bg-surface-container-lowest border-t border-outline-variant/10">
+    <footer className="w-full pt-24 px-6 md:px-24 bg-surface-container-lowest border-t border-outline-variant/10">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-16">
         
         {/* Brand */}
@@ -25,7 +25,7 @@ export default function Footer() {
               <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
               <span className="text-[11px] font-bold text-on-surface-variant uppercase tracking-widest">Lead Developer: <span className="text-on-surface">Mashrafi</span></span>
             </div>
-            
+            <br className="block md:hidden"/>
             <a href="https://github.com/AliHasanMashrafi" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-xl bg-surface-container border border-outline-variant/10 flex items-center justify-center text-on-surface-variant hover:bg-on-surface hover:text-surface transition-all shadow-sm hover:scale-110" aria-label="GitHub">
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
             </a>
@@ -42,7 +42,7 @@ export default function Footer() {
 
         {/* Navigation */}
         <div className="space-y-8">
-          <h5 className="text-[10px] font-black uppercase tracking-[0.3em] text-on-surface-variant opacity-60 font-label">প্রয়োজনীয় লিংক</h5>
+          <h5 className="text-[12px] font-black text-on-surface-variant opacity-60 font-label">প্রয়োজনীয় লিংক</h5>
           <ul className="space-y-4">
             {['হোম', 'হিটম্যাপ', 'সবুজায়নের সম্ভাবনা', 'এআই প্ল্যানার'].map((label, i) => (
               <li key={i}>
@@ -57,7 +57,7 @@ export default function Footer() {
 
         {/* Badges */}
         <div className="space-y-8">
-          <h5 className="text-[10px] font-black uppercase tracking-[0.3em] text-on-surface-variant opacity-60 font-label">টেকনোলজি ও ডেটা</h5>
+          <h5 className="text-[12px] font-black text-on-surface-variant opacity-60 font-label">টেকনোলজি ও ডেটা</h5>
           <div className="space-y-4">
             <div className="p-4 rounded-2xl bg-surface-container border border-outline-variant/10 flex items-center gap-3">
               <span className="material-symbols-outlined text-primary">rocket_launch</span>
@@ -74,7 +74,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto mt-24 py-8 border-t border-outline-variant/5 flex flex-col md:flex-row justify-between items-center gap-6">
         <p className="text-xs font-bold text-on-surface-variant opacity-40 uppercase tracking-widest font-label">© 2026 GreenPulse BD — Sustainable Urban Future</p>
         <div className="flex items-center gap-4 text-[10px] font-black text-primary uppercase tracking-[0.2em] font-label">
-          <span>Developed by Mashrafi & Team</span>
+          <span>Developed by Mashrafi & Team NPCs</span>
         </div>
       </div>
     </footer>

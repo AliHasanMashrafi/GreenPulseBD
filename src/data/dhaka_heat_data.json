@@ -1,0 +1,3746 @@
+{
+  "metadata": {
+    "source": "Landsat 9 C02 T1 L2 (Google Earth Engine)",
+    "period": "2026-03-01 to 2026-05-01",
+    "processed_date": "2026-05-02",
+    "observation_date": "মার্চ–এপ্রিল ২০২৬ (গড় তথ্য)",
+    "city": "Dhaka",
+    "status": "Real Satellite Data"
+  },
+  "summary": {
+    "avgTemp": 32.5,
+    "avgGreen": 24.3,
+    "totalArea": "306.4 sq km",
+    "last_updated": "10:52 PM",
+    "observation_date": "২ মে, ২০২৬",
+    "data_note": "এটি ২ মে, ২০২৬ তারিখের Landsat 9 স্যাটেলাইট থেকে প্রাপ্ত প্রকৃত তথ্য।"
+  },
+  "thanas": {
+    "আদাবর": {
+      "name_bn": "আদাবর",
+      "name_en": "Adabor",
+      "lat": 23.77656,
+      "lon": 90.35766,
+      "nasa_data": {
+        "lst_celsius": 33.6,
+        "ndvi": 0.077,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.6°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 15.4,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            19.4,
+            23.4,
+            21.0,
+            14.2,
+            21.2
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.1,
+          39.9,
+          44.1,
+          32.0,
+          39.5
+        ]
+      },
+      "opportunity": {
+        "score": 56,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 327
+      },
+      "heat_rank": 14
+    },
+    "বাড্ডা": {
+      "name_bn": "বাড্ডা",
+      "name_en": "Badda",
+      "lat": 23.82133,
+      "lon": 90.48577,
+      "nasa_data": {
+        "lst_celsius": 34.9,
+        "ndvi": 0.125,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 34.9°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "good",
+        "label_bn": "ভালো",
+        "percentage": 25.0,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            28.8,
+            34.0,
+            27.4,
+            35.8,
+            32.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.9,
+          37.7,
+          38.5,
+          34.4,
+          39.1
+        ]
+      },
+      "opportunity": {
+        "score": 50,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 425
+      },
+      "heat_rank": 2
+    },
+    "বংশাল": {
+      "name_bn": "বংশাল",
+      "name_en": "Bangshal",
+      "lat": 23.72294,
+      "lon": 90.41188,
+      "nasa_data": {
+        "lst_celsius": 34.1,
+        "ndvi": 0.074,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 34.1°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 14.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            21.2,
+            25.0,
+            21.8,
+            24.0,
+            20.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          39.6,
+          41.3,
+          43.6,
+          37.7,
+          38.7
+        ]
+      },
+      "opportunity": {
+        "score": 58,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 324
+      },
+      "heat_rank": 7
+    },
+    "বিমানবন্দর": {
+      "name_bn": "বিমানবন্দর",
+      "name_en": "Biman Bandar",
+      "lat": 23.85792,
+      "lon": 90.4072,
+      "nasa_data": {
+        "lst_celsius": 32.8,
+        "ndvi": 0.093,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.8°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 18.6,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            22.6,
+            27.0,
+            23.8,
+            16.4,
+            24.8
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.9,
+          39.0,
+          44.4,
+          32.2,
+          39.4
+        ]
+      },
+      "opportunity": {
+        "score": 51,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 343
+      },
+      "heat_rank": 24
+    },
+    "ক্যান্টনমেন্ট": {
+      "name_bn": "ক্যান্টনমেন্ট",
+      "name_en": "Cantonment",
+      "lat": 23.84152,
+      "lon": 90.39437,
+      "nasa_data": {
+        "lst_celsius": 32.4,
+        "ndvi": 0.146,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.4°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "good",
+        "label_bn": "ভালো",
+        "percentage": 29.2,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            33.6,
+            49.8,
+            41.2,
+            29.2,
+            44.8
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.0,
+          36.7,
+          43.9,
+          31.1,
+          38.9
+        ]
+      },
+      "opportunity": {
+        "score": 39,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 488
+      },
+      "heat_rank": 30
+    },
+    "চকবাজার": {
+      "name_bn": "চকবাজার",
+      "name_en": "Chak Bazar",
+      "lat": 23.72404,
+      "lon": 90.39948,
+      "nasa_data": {
+        "lst_celsius": 32.7,
+        "ndvi": 0.094,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.7°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 18.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            24.8,
+            31.4,
+            29.2,
+            30.0,
+            27.4
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.2,
+          37.5,
+          42.3,
+          35.7,
+          37.8
+        ]
+      },
+      "opportunity": {
+        "score": 50,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 344
+      },
+      "heat_rank": 26
+    },
+    "দক্ষিণখান": {
+      "name_bn": "দক্ষিণখান",
+      "name_en": "Dakshinkhan",
+      "lat": 23.84875,
+      "lon": 90.45392,
+      "nasa_data": {
+        "lst_celsius": 32.1,
+        "ndvi": 0.179,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.1°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "good",
+        "label_bn": "ভালো",
+        "percentage": 35.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            51.2,
+            59.6,
+            56.8,
+            47.4,
+            45.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          33.7,
+          35.1,
+          39.1,
+          30.0,
+          36.7
+        ]
+      },
+      "opportunity": {
+        "score": 32,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 587
+      },
+      "heat_rank": 31
+    },
+    "দারুস সালাম": {
+      "name_bn": "দারুস সালাম",
+      "name_en": "Darus Salam",
+      "lat": 23.79628,
+      "lon": 90.34914,
+      "nasa_data": {
+        "lst_celsius": 33.2,
+        "ndvi": 0.089,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.2°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 17.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            21.2,
+            23.0,
+            21.0,
+            14.8,
+            21.4
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.7,
+          37.5,
+          44.2,
+          32.2,
+          40.1
+        ]
+      },
+      "opportunity": {
+        "score": 53,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 339
+      },
+      "heat_rank": 18
+    },
+    "ডেমরা": {
+      "name_bn": "ডেমরা",
+      "name_en": "Demra",
+      "lat": 23.76181,
+      "lon": 90.48247,
+      "nasa_data": {
+        "lst_celsius": 30.3,
+        "ndvi": 0.239,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 30.3°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "excellent",
+        "label_bn": "চমৎকার",
+        "percentage": 47.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            51.4,
+            49.0,
+            46.8,
+            51.0,
+            43.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          32.7,
+          34.3,
+          37.6,
+          31.0,
+          33.9
+        ]
+      },
+      "opportunity": {
+        "score": 15,
+        "is_zone": false,
+        "label_bn": "সীমিত সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 767
+      },
+      "heat_rank": 41
+    },
+    "ধামরাই": {
+      "name_bn": "ধামরাই",
+      "name_en": "Dhamrai",
+      "lat": 24.03354,
+      "lon": 90.14755,
+      "nasa_data": {
+        "lst_celsius": 29.6,
+        "ndvi": 0.297,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "safe",
+        "label_bn": "স্বাভাবিক",
+        "color": "#16A34A",
+        "weather_message": "এই এলাকার তাপমাত্রা 29.6°C — তাপমাত্রা স্বাভাবিক মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "excellent",
+        "label_bn": "চমৎকার",
+        "percentage": 59.4,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            68.0,
+            59.8,
+            63.8,
+            47.8,
+            61.4
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          30.6,
+          31.6,
+          36.2,
+          24.7,
+          33.4
+        ]
+      },
+      "opportunity": {
+        "score": 12,
+        "is_zone": false,
+        "label_bn": "সীমিত সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 941
+      },
+      "heat_rank": 43
+    },
+    "ধানমন্ডি": {
+      "name_bn": "ধানমন্ডি",
+      "name_en": "Dhanmondi",
+      "lat": 23.74009,
+      "lon": 90.38321,
+      "nasa_data": {
+        "lst_celsius": 32.6,
+        "ndvi": 0.087,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.6°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 17.4,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            24.4,
+            28.6,
+            25.2,
+            23.4,
+            25.2
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.2,
+          39.8,
+          41.7,
+          35.0,
+          37.9
+        ]
+      },
+      "opportunity": {
+        "score": 52,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 337
+      },
+      "heat_rank": 28
+    },
+    "দোহার": {
+      "name_bn": "দোহার",
+      "name_en": "Dohar",
+      "lat": 23.56894,
+      "lon": 90.20567,
+      "nasa_data": {
+        "lst_celsius": 26.8,
+        "ndvi": 0.31,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "safe",
+        "label_bn": "স্বাভাবিক",
+        "color": "#16A34A",
+        "weather_message": "এই এলাকার তাপমাত্রা 26.8°C — তাপমাত্রা স্বাভাবিক মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "excellent",
+        "label_bn": "চমৎকার",
+        "percentage": 62.0,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            60.0,
+            49.6,
+            57.4,
+            66.8,
+            56.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          31.8,
+          33.5,
+          34.2,
+          31.2,
+          33.5
+        ]
+      },
+      "opportunity": {
+        "score": 5,
+        "is_zone": false,
+        "label_bn": "সীমিত সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 980
+      },
+      "heat_rank": 45
+    },
+    "গেন্ডারিয়া": {
+      "name_bn": "গেন্ডারিয়া",
+      "name_en": "Gendaria",
+      "lat": 23.71638,
+      "lon": 90.42603,
+      "nasa_data": {
+        "lst_celsius": 34.3,
+        "ndvi": 0.061,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 34.3°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 12.2,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            17.6,
+            22.8,
+            18.0,
+            19.6,
+            17.2
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.8,
+          39.1,
+          43.4,
+          38.0,
+          38.5
+        ]
+      },
+      "opportunity": {
+        "score": 61,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 311
+      },
+      "heat_rank": 6
+    },
+    "গুলশান": {
+      "name_bn": "গুলশান",
+      "name_en": "Gulshan",
+      "lat": 23.76983,
+      "lon": 90.41757,
+      "nasa_data": {
+        "lst_celsius": 31.8,
+        "ndvi": 0.08,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 31.8°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 16.0,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            16.2,
+            21.8,
+            18.8,
+            16.6,
+            18.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          36.4,
+          39.3,
+          40.6,
+          32.7,
+          35.7
+        ]
+      },
+      "opportunity": {
+        "score": 51,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 330
+      },
+      "heat_rank": 36
+    },
+    "হাজারীবাগ": {
+      "name_bn": "হাজারীবাগ",
+      "name_en": "Hazaribagh",
+      "lat": 23.74879,
+      "lon": 90.36386,
+      "nasa_data": {
+        "lst_celsius": 32.9,
+        "ndvi": 0.078,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.9°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 15.6,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            19.6,
+            26.6,
+            21.6,
+            15.4,
+            21.4
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.0,
+          35.9,
+          44.4,
+          32.5,
+          39.5
+        ]
+      },
+      "opportunity": {
+        "score": 54,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 328
+      },
+      "heat_rank": 22
+    },
+    "যাত্রাবাড়ী": {
+      "name_bn": "যাত্রাবাড়ী",
+      "name_en": "Jatrabari",
+      "lat": 23.69484,
+      "lon": 90.46671,
+      "nasa_data": {
+        "lst_celsius": 31.6,
+        "ndvi": 0.102,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 31.6°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 20.4,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            27.8,
+            30.6,
+            22.8,
+            28.0,
+            25.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          36.1,
+          37.6,
+          43.0,
+          35.4,
+          35.9
+        ]
+      },
+      "opportunity": {
+        "score": 46,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 356
+      },
+      "heat_rank": 38
+    },
+    "কদমতলী": {
+      "name_bn": "কদমতলী",
+      "name_en": "Kadamtali",
+      "lat": 23.694,
+      "lon": 90.455,
+      "nasa_data": {
+        "lst_celsius": 32.0,
+        "ndvi": 0.066,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.0°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 13.2,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            19.6,
+            25.2,
+            18.8,
+            20.6,
+            18.4
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          36.1,
+          40.5,
+          44.0,
+          37.0,
+          36.5
+        ]
+      },
+      "opportunity": {
+        "score": 54,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 316
+      },
+      "heat_rank": 34
+    },
+    "কাফরুল": {
+      "name_bn": "কাফরুল",
+      "name_en": "Kafrul",
+      "lat": 23.77642,
+      "lon": 90.3941,
+      "nasa_data": {
+        "lst_celsius": 34.1,
+        "ndvi": 0.107,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 34.1°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 21.4,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            23.6,
+            29.4,
+            24.4,
+            20.4,
+            24.4
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.4,
+          38.1,
+          43.8,
+          34.0,
+          39.6
+        ]
+      },
+      "opportunity": {
+        "score": 51,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 371
+      },
+      "heat_rank": 8
+    },
+    "কলাবাগান": {
+      "name_bn": "কলাবাগান",
+      "name_en": "Kalabagan",
+      "lat": 23.75101,
+      "lon": 90.38737,
+      "nasa_data": {
+        "lst_celsius": 33.4,
+        "ndvi": 0.07,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.4°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 14.0,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            17.8,
+            22.2,
+            17.2,
+            15.6,
+            18.4
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.9,
+          41.2,
+          43.3,
+          33.6,
+          38.7
+        ]
+      },
+      "opportunity": {
+        "score": 57,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 320
+      },
+      "heat_rank": 15
+    },
+    "কামরাঙ্গীরচর": {
+      "name_bn": "কামরাঙ্গীরচর",
+      "name_en": "Kamrangir Char",
+      "lat": 23.71328,
+      "lon": 90.38316,
+      "nasa_data": {
+        "lst_celsius": 32.9,
+        "ndvi": 0.058,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.9°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 11.6,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            15.6,
+            18.8,
+            16.4,
+            17.6,
+            16.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.0,
+          38.7,
+          42.9,
+          36.9,
+          38.8
+        ]
+      },
+      "opportunity": {
+        "score": 58,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.1,
+        "carbon_offset_kg_year": 308
+      },
+      "heat_rank": 23
+    },
+    "কেরানীগঞ্জ": {
+      "name_bn": "কেরানীগঞ্জ",
+      "name_en": "Keraniganj",
+      "lat": 23.77814,
+      "lon": 90.24112,
+      "nasa_data": {
+        "lst_celsius": 29.5,
+        "ndvi": 0.165,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "safe",
+        "label_bn": "স্বাভাবিক",
+        "color": "#16A34A",
+        "weather_message": "এই এলাকার তাপমাত্রা 29.5°C — তাপমাত্রা স্বাভাবিক মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "good",
+        "label_bn": "ভালো",
+        "percentage": 33.0,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            31.4,
+            42.6,
+            31.2,
+            24.6,
+            35.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          35.1,
+          35.4,
+          41.7,
+          30.4,
+          38.1
+        ]
+      },
+      "opportunity": {
+        "score": 28,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 545
+      },
+      "heat_rank": 44
+    },
+    "খিলগাঁও": {
+      "name_bn": "খিলগাঁও",
+      "name_en": "Khilgaon",
+      "lat": 23.7818,
+      "lon": 90.47162,
+      "nasa_data": {
+        "lst_celsius": 32.1,
+        "ndvi": 0.21,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.1°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "excellent",
+        "label_bn": "চমৎকার",
+        "percentage": 42.0,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            38.8,
+            34.2,
+            38.4,
+            43.0,
+            41.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          34.1,
+          35.0,
+          39.8,
+          32.0,
+          35.4
+        ]
+      },
+      "opportunity": {
+        "score": 26,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 680
+      },
+      "heat_rank": 32
+    },
+    "খিলক্ষেত": {
+      "name_bn": "খিলক্ষেত",
+      "name_en": "Khilkhet",
+      "lat": 23.84875,
+      "lon": 90.45392,
+      "nasa_data": {
+        "lst_celsius": 32.1,
+        "ndvi": 0.179,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.1°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "good",
+        "label_bn": "ভালো",
+        "percentage": 35.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            51.2,
+            59.6,
+            56.8,
+            47.4,
+            45.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          33.7,
+          35.1,
+          39.1,
+          30.0,
+          36.7
+        ]
+      },
+      "opportunity": {
+        "score": 32,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 587
+      },
+      "heat_rank": 33
+    },
+    "কোতোয়ালী": {
+      "name_bn": "কোতোয়ালী",
+      "name_en": "Kotwali",
+      "lat": 23.71352,
+      "lon": 90.41153,
+      "nasa_data": {
+        "lst_celsius": 33.3,
+        "ndvi": 0.051,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.3°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 10.2,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            15.6,
+            17.6,
+            15.4,
+            16.8,
+            15.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          39.1,
+          41.9,
+          43.4,
+          36.9,
+          38.3
+        ]
+      },
+      "opportunity": {
+        "score": 61,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.2,
+        "carbon_offset_kg_year": 301
+      },
+      "heat_rank": 17
+    },
+    "লালবাগ": {
+      "name_bn": "লালবাগ",
+      "name_en": "Lalbagh",
+      "lat": 23.72404,
+      "lon": 90.39948,
+      "nasa_data": {
+        "lst_celsius": 32.7,
+        "ndvi": 0.094,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.7°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 18.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            24.8,
+            31.4,
+            29.2,
+            30.0,
+            27.4
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.2,
+          37.5,
+          42.3,
+          35.7,
+          37.8
+        ]
+      },
+      "opportunity": {
+        "score": 50,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 344
+      },
+      "heat_rank": 27
+    },
+    "মিরপুর": {
+      "name_bn": "মিরপুর",
+      "name_en": "Mirpur",
+      "lat": 23.8071,
+      "lon": 90.36856,
+      "nasa_data": {
+        "lst_celsius": 33.4,
+        "ndvi": 0.088,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.4°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 17.6,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            18.6,
+            23.2,
+            19.6,
+            14.0,
+            20.8
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.3,
+          41.5,
+          44.9,
+          33.1,
+          39.9
+        ]
+      },
+      "opportunity": {
+        "score": 53,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 338
+      },
+      "heat_rank": 16
+    },
+    "মোহাম্মদপুর": {
+      "name_bn": "মোহাম্মদপুর",
+      "name_en": "Mohammadpur",
+      "lat": 23.77493,
+      "lon": 90.36557,
+      "nasa_data": {
+        "lst_celsius": 33.7,
+        "ndvi": 0.076,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.7°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 15.2,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            19.4,
+            23.2,
+            20.4,
+            13.6,
+            21.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.9,
+          39.7,
+          44.0,
+          32.2,
+          39.4
+        ]
+      },
+      "opportunity": {
+        "score": 57,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 326
+      },
+      "heat_rank": 12
+    },
+    "মতিঝিল": {
+      "name_bn": "মতিঝিল",
+      "name_en": "Motijheel",
+      "lat": 23.72234,
+      "lon": 90.42878,
+      "nasa_data": {
+        "lst_celsius": 34.4,
+        "ndvi": 0.068,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 34.4°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 13.6,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            17.2,
+            23.2,
+            17.8,
+            20.6,
+            18.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.8,
+          39.4,
+          43.4,
+          37.7,
+          38.4
+        ]
+      },
+      "opportunity": {
+        "score": 60,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 318
+      },
+      "heat_rank": 4
+    },
+    "নবাবগঞ্জ": {
+      "name_bn": "নবাবগঞ্জ",
+      "name_en": "Nawabganj",
+      "lat": 23.71509,
+      "lon": 90.25551,
+      "nasa_data": {
+        "lst_celsius": 26.2,
+        "ndvi": 0.269,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "safe",
+        "label_bn": "স্বাভাবিক",
+        "color": "#16A34A",
+        "weather_message": "এই এলাকার তাপমাত্রা 26.2°C — তাপমাত্রা স্বাভাবিক মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "excellent",
+        "label_bn": "চমৎকার",
+        "percentage": 53.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            42.8,
+            73.2,
+            57.8,
+            58.0,
+            54.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          35.1,
+          33.8,
+          39.8,
+          37.7,
+          36.1
+        ]
+      },
+      "opportunity": {
+        "score": 3,
+        "is_zone": false,
+        "label_bn": "সীমিত সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 857
+      },
+      "heat_rank": 46
+    },
+    "নিউ মার্কেট": {
+      "name_bn": "নিউ মার্কেট",
+      "name_en": "New Market",
+      "lat": 23.74167,
+      "lon": 90.39183,
+      "nasa_data": {
+        "lst_celsius": 33.1,
+        "ndvi": 0.084,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.1°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 16.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            22.8,
+            27.6,
+            23.8,
+            23.8,
+            24.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.2,
+          39.4,
+          41.8,
+          35.1,
+          38.0
+        ]
+      },
+      "opportunity": {
+        "score": 53,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 334
+      },
+      "heat_rank": 19
+    },
+    "পল্লবী": {
+      "name_bn": "পল্লবী",
+      "name_en": "Pallabi",
+      "lat": 23.84172,
+      "lon": 90.38725,
+      "nasa_data": {
+        "lst_celsius": 31.6,
+        "ndvi": 0.146,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 31.6°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "good",
+        "label_bn": "ভালো",
+        "percentage": 29.2,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            33.4,
+            43.4,
+            39.8,
+            24.0,
+            40.2
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          36.2,
+          35.7,
+          42.0,
+          29.9,
+          37.7
+        ]
+      },
+      "opportunity": {
+        "score": 37,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 488
+      },
+      "heat_rank": 39
+    },
+    "পল্টন": {
+      "name_bn": "পল্টন",
+      "name_en": "Paltan",
+      "lat": 23.72262,
+      "lon": 90.4139,
+      "nasa_data": {
+        "lst_celsius": 34.0,
+        "ndvi": 0.074,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 34.0°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 14.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            21.8,
+            25.0,
+            22.0,
+            24.2,
+            20.2
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          39.7,
+          40.9,
+          43.4,
+          37.7,
+          38.5
+        ]
+      },
+      "opportunity": {
+        "score": 58,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 324
+      },
+      "heat_rank": 10
+    },
+    "রমনা": {
+      "name_bn": "রমনা",
+      "name_en": "Ramna",
+      "lat": 23.74416,
+      "lon": 90.41428,
+      "nasa_data": {
+        "lst_celsius": 33.1,
+        "ndvi": 0.074,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.1°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 14.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            16.8,
+            22.4,
+            17.6,
+            19.6,
+            17.8
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.5,
+          41.5,
+          43.5,
+          35.7,
+          37.5
+        ]
+      },
+      "opportunity": {
+        "score": 55,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 324
+      },
+      "heat_rank": 20
+    },
+    "রামপুরা": {
+      "name_bn": "রামপুরা",
+      "name_en": "Rampura",
+      "lat": 23.76323,
+      "lon": 90.43363,
+      "nasa_data": {
+        "lst_celsius": 32.8,
+        "ndvi": 0.093,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.8°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 18.6,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            21.2,
+            26.8,
+            22.4,
+            20.8,
+            20.8
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.9,
+          40.0,
+          42.8,
+          33.4,
+          38.0
+        ]
+      },
+      "opportunity": {
+        "score": 51,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 343
+      },
+      "heat_rank": 25
+    },
+    "সবুজবাগ": {
+      "name_bn": "সবুজবাগ",
+      "name_en": "Sabujbagh",
+      "lat": 23.74273,
+      "lon": 90.46018,
+      "nasa_data": {
+        "lst_celsius": 31.1,
+        "ndvi": 0.205,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 31.1°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "excellent",
+        "label_bn": "চমৎকার",
+        "percentage": 41.0,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            39.6,
+            51.8,
+            42.2,
+            42.6,
+            40.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          34.1,
+          35.9,
+          39.5,
+          31.4,
+          36.2
+        ]
+      },
+      "opportunity": {
+        "score": 24,
+        "is_zone": false,
+        "label_bn": "সীমিত সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 665
+      },
+      "heat_rank": 40
+    },
+    "সাভার": {
+      "name_bn": "সাভার",
+      "name_en": "Savar",
+      "lat": 24.01483,
+      "lon": 90.26003,
+      "nasa_data": {
+        "lst_celsius": 35.3,
+        "ndvi": 0.171,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 35.3°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "good",
+        "label_bn": "ভালো",
+        "percentage": 34.2,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            40.0,
+            47.6,
+            46.8,
+            23.8,
+            45.8
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          36.6,
+          32.7,
+          42.6,
+          28.2,
+          38.2
+        ]
+      },
+      "opportunity": {
+        "score": 42,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 563
+      },
+      "heat_rank": 1
+    },
+    "শাহ আলী": {
+      "name_bn": "শাহ আলী",
+      "name_en": "Shah Ali",
+      "lat": 23.82788,
+      "lon": 90.35112,
+      "nasa_data": {
+        "lst_celsius": 31.9,
+        "ndvi": 0.125,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 31.9°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "good",
+        "label_bn": "ভালো",
+        "percentage": 25.0,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            30.2,
+            39.2,
+            34.8,
+            27.0,
+            32.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          36.9,
+          36.1,
+          42.0,
+          32.4,
+          38.0
+        ]
+      },
+      "opportunity": {
+        "score": 42,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 425
+      },
+      "heat_rank": 35
+    },
+    "শাহবাগ": {
+      "name_bn": "শাহবাগ",
+      "name_en": "Shahbagh",
+      "lat": 23.73625,
+      "lon": 90.41032,
+      "nasa_data": {
+        "lst_celsius": 33.0,
+        "ndvi": 0.074,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.0°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 14.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            19.6,
+            25.0,
+            21.0,
+            21.2,
+            20.8
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.4,
+          39.6,
+          43.7,
+          34.5,
+          37.5
+        ]
+      },
+      "opportunity": {
+        "score": 55,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 324
+      },
+      "heat_rank": 21
+    },
+    "শেরেবাংলা নগর": {
+      "name_bn": "শেরেবাংলা নগর",
+      "name_en": "Sher-e-bangla Nagar",
+      "lat": 23.76546,
+      "lon": 90.3833,
+      "nasa_data": {
+        "lst_celsius": 33.9,
+        "ndvi": 0.124,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.9°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 24.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            27.6,
+            38.2,
+            32.4,
+            27.2,
+            30.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.5,
+          36.7,
+          43.2,
+          32.1,
+          39.3
+        ]
+      },
+      "opportunity": {
+        "score": 47,
+        "is_zone": false,
+        "label_bn": "মাঝারি সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 422
+      },
+      "heat_rank": 11
+    },
+    "শ্যামপুর": {
+      "name_bn": "শ্যামপুর",
+      "name_en": "Shyampur",
+      "lat": 23.70109,
+      "lon": 90.43871,
+      "nasa_data": {
+        "lst_celsius": 34.1,
+        "ndvi": 0.054,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 34.1°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 10.8,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            13.4,
+            18.6,
+            15.8,
+            16.8,
+            14.8
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.1,
+          44.1,
+          45.3,
+          37.3,
+          38.7
+        ]
+      },
+      "opportunity": {
+        "score": 62,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.1,
+        "carbon_offset_kg_year": 304
+      },
+      "heat_rank": 9
+    },
+    "সূত্রাপুর": {
+      "name_bn": "সূত্রাপুর",
+      "name_en": "Sutrapur",
+      "lat": 23.72234,
+      "lon": 90.42878,
+      "nasa_data": {
+        "lst_celsius": 34.4,
+        "ndvi": 0.068,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 34.4°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "poor",
+        "label_bn": "অপ্রতুল",
+        "percentage": 13.6,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            17.2,
+            23.2,
+            17.8,
+            20.6,
+            18.0
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.8,
+          39.4,
+          43.4,
+          37.7,
+          38.4
+        ]
+      },
+      "opportunity": {
+        "score": 60,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "জরুরি রুফটপ গার্ডেন",
+            "desc": "এই এলাকায় সবুজের পরিমাণ অত্যন্ত কম। ছাদে গাছ লাগানো শুরু করলে তাপমাত্রা উল্লেখযোগ্যভাবে কমবে।",
+            "icon": "roofing"
+          },
+          {
+            "title": "ভার্টিক্যাল গার্ডেন",
+            "desc": "দেওয়াল বা ব্যালকনিতে লতানো গাছ লাগান। এটি জায়গা কম নিয়ে বেশি সবুজ তৈরি করে।",
+            "icon": "potted_plant"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 318
+      },
+      "heat_rank": 5
+    },
+    "তেজগাঁও": {
+      "name_bn": "তেজগাঁও",
+      "name_en": "Tejgaon",
+      "lat": 23.7781,
+      "lon": 90.39786,
+      "nasa_data": {
+        "lst_celsius": 33.7,
+        "ndvi": 0.107,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 33.7°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 21.4,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            23.6,
+            29.8,
+            24.4,
+            21.2,
+            24.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.0,
+          40.0,
+          43.2,
+          34.5,
+          39.1
+        ]
+      },
+      "opportunity": {
+        "score": 50,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 371
+      },
+      "heat_rank": 13
+    },
+    "তেজগাঁও শিল্প এলাকা": {
+      "name_bn": "তেজগাঁও শিল্প এলাকা",
+      "name_en": "Tejgaon Ind. Area",
+      "lat": 23.77026,
+      "lon": 90.41521,
+      "nasa_data": {
+        "lst_celsius": 31.8,
+        "ndvi": 0.082,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 31.8°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 16.4,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            16.8,
+            22.0,
+            19.4,
+            17.6,
+            18.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          36.4,
+          38.7,
+          40.7,
+          33.0,
+          35.8
+        ]
+      },
+      "opportunity": {
+        "score": 51,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 332
+      },
+      "heat_rank": 37
+    },
+    "তুরাগ": {
+      "name_bn": "তুরাগ",
+      "name_en": "Turag",
+      "lat": 23.8949,
+      "lon": 90.38476,
+      "nasa_data": {
+        "lst_celsius": 34.8,
+        "ndvi": 0.113,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "medium",
+        "label_bn": "মাঝারি",
+        "color": "#EA580C",
+        "weather_message": "এই এলাকার তাপমাত্রা 34.8°C — মাঝারি তাপমাত্রা। সতর্ক থাকুন।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 22.6,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            29.0,
+            32.2,
+            28.6,
+            21.2,
+            29.2
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          38.1,
+          38.5,
+          43.3,
+          32.1,
+          39.7
+        ]
+      },
+      "opportunity": {
+        "score": 52,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 389
+      },
+      "heat_rank": 3
+    },
+    "উত্তরখান": {
+      "name_bn": "উত্তরখান",
+      "name_en": "Uttar Khan",
+      "lat": 23.88337,
+      "lon": 90.46157,
+      "nasa_data": {
+        "lst_celsius": 30.0,
+        "ndvi": 0.273,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 30.0°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "excellent",
+        "label_bn": "চমৎকার",
+        "percentage": 54.6,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            53.6,
+            55.0,
+            49.0,
+            40.4,
+            53.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          32.9,
+          34.4,
+          37.4,
+          28.8,
+          34.5
+        ]
+      },
+      "opportunity": {
+        "score": 12,
+        "is_zone": false,
+        "label_bn": "সীমিত সুযোগ",
+        "recommendations": [
+          {
+            "title": "সবুজ সংরক্ষণ",
+            "desc": "এই এলাকার বিদ্যমান গাছপালা রক্ষা করুন এবং আরও বাড়ানোর উদ্যোগ নিন।",
+            "icon": "eco"
+          },
+          {
+            "title": "কমিউনিটি গার্ডেন",
+            "desc": "প্রতিবেশীদের নিয়ে একটি কমিউনিটি গার্ডেন তৈরি করুন। এটি সামাজিক বন্ধনও তৈরি করে।",
+            "icon": "people"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 869
+      },
+      "heat_rank": 42
+    },
+    "উত্তরা": {
+      "name_bn": "উত্তরা",
+      "name_en": "Uttara",
+      "lat": 23.8749,
+      "lon": 90.3987,
+      "nasa_data": {
+        "lst_celsius": 32.6,
+        "ndvi": 0.08,
+        "data_source": "Landsat 9 C02 T1 L2 (2026-03-01 to 2026-05-01)"
+      },
+      "heat_analysis": {
+        "level": "low",
+        "label_bn": "সহনীয়",
+        "color": "#D97706",
+        "weather_message": "এই এলাকার তাপমাত্রা 32.6°C — তুলনামূলক সহনীয় মাত্রায় রয়েছে।"
+      },
+      "green_analysis": {
+        "level": "moderate",
+        "label_bn": "মাঝারি",
+        "percentage": 16.0,
+        "trend": {
+          "years": [
+            "২০২১",
+            "২০২২",
+            "২০২৩",
+            "২০২৪",
+            "২০২৫"
+          ],
+          "values": [
+            23.4,
+            28.4,
+            23.4,
+            18.2,
+            23.6
+          ]
+        }
+      },
+      "trend": {
+        "years": [
+          "২০২১",
+          "২০২২",
+          "২০২৩",
+          "২০২৪",
+          "২০২৫"
+        ],
+        "lst_values": [
+          37.1,
+          38.9,
+          43.6,
+          33.5,
+          38.3
+        ]
+      },
+      "opportunity": {
+        "score": 53,
+        "is_zone": true,
+        "label_bn": "ভালো সবুজায়নের সুযোগ",
+        "recommendations": [
+          {
+            "title": "রুফটপ কিচেন গার্ডেন",
+            "desc": "ছাদে সবজি বাগান করুন। এতে একদিকে তাপমাত্রা কমবে, অন্যদিকে তাজা সবজি পাবেন।",
+            "icon": "roofing"
+          },
+          {
+            "title": "রাস্তার পাশে গাছ",
+            "desc": "আপনার সড়কে গাছ লাগানোর জন্য স্থানীয় কর্তৃপক্ষকে উৎসাহিত করুন।",
+            "icon": "park"
+          },
+          {
+            "title": "দেশীয় গাছ লাগান",
+            "desc": "নিম, কদম, আম, জাম এই ধরনের দেশীয় গাছ দ্রুত বাড়ে এবং বেশি ছায়া দেয়।",
+            "icon": "nature"
+          }
+        ]
+      },
+      "rooftop_impact": {
+        "temp_reduction_celsius": 1.0,
+        "carbon_offset_kg_year": 330
+      },
+      "heat_rank": 29
+    }
+  }
+}

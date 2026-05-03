@@ -1,0 +1,192 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-container-highest: #273927;
+  --color-surface-dim: #061708;
+  --color-on-error: #690005;
+  --color-secondary-fixed-dim: #94ccff;
+  --color-on-secondary-fixed-variant: #004b74;
+  --color-on-background: #d2e9ce;
+  --color-error-container: #93000a;
+  --color-primary: #62df7d;
+  --color-on-primary-container: #003111;
+  --color-on-primary-fixed: #002109;
+  --color-background: #061708;
+  --color-on-secondary-container: #c9e3ff;
+  --color-primary-fixed: #7ffc97;
+  --color-primary-fixed-dim: #62df7d;
+  --color-error: #ffb4ab;
+  --color-inverse-on-surface: #223523;
+  --color-surface: #061708;
+  --color-surface-variant: #273927;
+  --color-on-tertiary: #65080d;
+  --color-tertiary-fixed-dim: #ffb3ad;
+  --color-outline: #879485;
+  --color-surface-container-high: #1c2e1d;
+  --color-tertiary: #ffb3ad;
+  --color-secondary: #94ccff;
+  --color-on-tertiary-container: #5b0108;
+  --color-outline-variant: #3e4a3d;
+  --color-on-error-container: #ffdad6;
+  --color-tertiary-container: #e76a63;
+  --color-on-secondary-fixed: #001d32;
+  --color-secondary-container: #0168a0;
+  --color-surface-tint: #62df7d;
+  --color-on-tertiary-fixed: #410004;
+  --color-on-primary-fixed-variant: #005320;
+  --color-secondary-fixed: #cde5ff;
+  --color-inverse-primary: #006e2d;
+  --color-surface-container-low: #0d1f0f;
+  --color-on-primary: #003914;
+  --color-surface-bright: #2b3e2b;
+  --color-on-secondary: #003352;
+  --color-on-surface: #d2e9ce;
+  --color-on-tertiary-fixed-variant: #852221;
+  --color-tertiary-fixed: #ffdad7;
+  --color-surface-container: #122413;
+  --color-primary-container: #1ca64d;
+  --color-surface-container-lowest: #021204;
+  --color-on-surface-variant: #bdcaba;
+  --color-inverse-surface: #d2e9ce;
+  --color-opportunity-low: #E9D5FF;
+  --color-opportunity-mid: #A855F7;
+  --color-opportunity-high: #6B21A8;
+
+  --font-headline: var(--font-inter), var(--font-hind-siliguri), sans-serif;
+  --font-body: var(--font-inter), var(--font-hind-siliguri), sans-serif;
+  --font-label: var(--font-inter), var(--font-hind-siliguri), sans-serif;
+  --font-bengali: var(--font-hind-siliguri), sans-serif;
+
+  --radius-xl: 16px;
+  --radius-xl: 16px;
+}
+
+/* Fluid Typography System */
+:root {
+  --fluid-h1: clamp(2rem, 5vw + 1rem, 4.5rem);
+  --fluid-h2: clamp(1.75rem, 4vw + 1rem, 3.5rem);
+  --fluid-h3: clamp(1.5rem, 3vw + 0.5rem, 2.5rem);
+  --fluid-body: clamp(0.95rem, 1vw + 0.5rem, 1.15rem);
+  --fluid-small: clamp(0.75rem, 0.5vw + 0.5rem, 0.9rem);
+}
+
+h1 { font-size: var(--fluid-h1); line-height: 1.1; }
+h2 { font-size: var(--fluid-h2); line-height: 1.2; }
+h3 { font-size: var(--fluid-h3); line-height: 1.3; }
+p  { font-size: var(--fluid-body); line-height: 1.6; }
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-body);
+  font-size: var(--fluid-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: 'liga';
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.bengali-text {
+  font-family: var(--font-bengali);
+}
+
+.bengali-font {
+  font-family: var(--font-bengali);
+}
+
+.glossy-card {
+  background: rgba(28, 46, 29, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+.glass-panel {
+  background: rgba(13, 31, 15, 0.6);
+  backdrop-filter: blur(12px);
+}
+
+.heat-gradient {
+  background: linear-gradient(to right, #FDE68A, #F59E0B, #EF4444, #7F1D1D);
+}
+
+@keyframes gradient-x {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 5s ease infinite;
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 3s ease-in-out infinite;
+}
+
+.leaflet-container {
+  background: #061708 !important;
+}
+
+.leaflet-tooltip {
+  background: transparent !important;
+  border: none !important;
+  color: #ffffff !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  font-family: var(--font-bengali);
+  text-shadow: none !important;
+  pointer-events: none;
+  opacity: 0.4 !important;
+}
+
+.area-label-permanent {
+  font-size: 6px !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  transition: all 0.3s ease-out !important;
+}
+
+.area-label-permanent.scale-hover {
+  font-size: 14px !important;
+  color: #ffffff !important;
+  z-index: 5000 !important;
+  opacity: 1 !important;
+  text-shadow: 0 0 10px rgba(0,0,0,1) !important;
+}
+
+.leaflet-tooltip-pane {
+  z-index: 300 !important; /* Below overlay-pane (400) */
+}
+
+.leaflet-overlay-pane {
+  z-index: 400 !important;
+}
+
+.leaflet-tooltip-top:before,
+.leaflet-tooltip-bottom:before,
+.leaflet-tooltip-left:before,
+.leaflet-tooltip-right:before {
+  border: none !important;
+}

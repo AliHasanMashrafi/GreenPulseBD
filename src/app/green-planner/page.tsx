@@ -189,10 +189,10 @@ export default function GreenPlanner() {
           <aside className="lg:col-span-4 space-y-6">
             <div className="bg-surface-container p-8 rounded-[2.5rem] border border-outline-variant/10 shadow-2xl space-y-8">
               <div className="flex items-center justify-between">
-                <h3 className="text-lg font-bold font-bengali flex items-center gap-2">
+                <h6 className="text-lg font-bold font-bengali flex items-center gap-2">
                   <span className="material-symbols-outlined text-primary">analytics</span>
                   আপনার তথ্য দিন
-                </h3>
+                </h6>
                 <button 
                   onClick={detectLocation}
                   disabled={isDetectingLocation}
@@ -206,7 +206,7 @@ export default function GreenPlanner() {
               <div className="space-y-6">
                 {/* Area Select */}
                 <div className="space-y-3">
-                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">এলাকা নির্বাচন করুন</label>
+                  <label className="text-[11px] font-bold tracking-[0.1em] text-on-surface-variant">এলাকা নির্বাচন করুন</label>
                   <select
                     value={formData.thana}
                     onChange={(e) => setFormData({ ...formData, thana: e.target.value })}
@@ -221,7 +221,7 @@ export default function GreenPlanner() {
 
                 {/* Space Type */}
                 <div className="space-y-3">
-                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">জায়গার ধরন</label>
+                  <label className="text-[11px] font-bold tracking-[0.1em] text-on-surface-variant">জায়গার ধরন</label>
                   <div className="grid grid-cols-3 gap-2">
                     {[
                       { id: "rooftop",  icon: "roofing",      label: "ছাদ" },
@@ -242,7 +242,7 @@ export default function GreenPlanner() {
 
                 {/* Priority */}
                 <div className="space-y-3">
-                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-on-surface-variant">অগ্রাধিকার</label>
+                  <label className="text-[11px] font-bold tracking-[0.1em] text-on-surface-variant">অগ্রাধিকার</label>
                   <div className="grid grid-cols-3 gap-2">
                     {[
                       { id: "environment", icon: "eco",      label: "পরিবেশ" },

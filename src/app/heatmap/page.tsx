@@ -296,7 +296,7 @@ export default function Heatmap() {
                 </div>
                 
                 <div className="space-y-2">
-                  <h4 className="text-2xl font-black font-bengali text-on-surface tracking-tight leading-tight">আপনার এলাকাকে <br/> সবুজে সাজান</h4>
+                  <h4 className="text-2xl font-black font-bengali text-on-surface tracking-tight leading-tight">আপনার এলাকাকে সবুজে সাজান</h4>
                   <p className="text-xs text-on-surface-variant font-bengali opacity-70 leading-relaxed">
                     আমাদের জেনারেটিভ এআই ব্যবহার করে আপনার বাসার জন্য একটি পার্সোনালাইজড সবুজায়ন প্ল্যান তৈরি করুন।
                   </p>
